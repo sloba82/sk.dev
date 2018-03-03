@@ -1,0 +1,533 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+body {
+	margin:0;
+	padding:0;
+	background:#0f0402;
+	background-attachment: fixed;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-image:url(materijal/pozadinaKompres.jpg);
+	}
+
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+	}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Roboto Slab', serif;
+	font-weight:100;
+	letter-spacing: 1px;
+	margin:0;
+	padding:0;
+	
+	} 
+
+h1 {
+	letter-spacing: 3px;
+	font-size:2.7em;
+	}	
+	                
+p {
+	font-family: 'Crimson Text', serif;
+	
+	}
+	
+	
+	
+a {
+	text-decoration:none;
+	}
+
+
+a:link, 
+a:visited {
+	color:#fff;
+}
+
+img {
+	max-width:100%;
+	padding:0;
+	margin:0;
+	display:block;
+	} 
+	
+#wrapper{
+	margin:auto;
+	}
+	
+#header{
+	margin:auto;
+	width:1200px;
+	clear:both;
+	}
+	
+.naslov{
+	width:400px;
+	float:left;
+	background:#FCD61F;
+	
+	}
+	
+.naslov img{
+	padding:10px 0px;
+	margin:auto;
+	}
+
+.slika {
+	width:800px;
+	float:right;
+	}
+	
+.slika img {
+	padding-top:20px;
+	}
+
+	
+#nav{
+	border-top:4px #FCD61F solid;
+	background:rgba(0,0,0,0.5);
+	clear:both;
+	}
+	
+#nav ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+	
+#nav ul li {
+	float:left;
+	}
+	
+#nav ul li a {
+	display:block;
+	padding:20px;
+	margin-right:4px;
+	text-decoration:none;
+	color:#CCC;
+	
+	}	
+	
+#centarNav {
+	width:1200px;
+	clear:both;
+	margin:auto;
+	overflow:hidden;
+	}
+	
+#centarNav a:link, 
+#centarNav a:visited {
+	color:#fff;
+	background:rgba(0,0,0,0.5);
+	}
+#centarNav a:hover {
+	text-decoration:none;
+	background:rgba(0,0,0,0.9);
+	color:#fff;
+	border-right:4px #FCD61F solid;
+	}
+	
+#sredina {
+	margin:auto;
+	width:1200px;
+	}
+	
+#main {
+	width:760px;
+	padding:20px 20px 20px 0;
+	float:left;
+	color:#FFF;
+	}
+	
+#main p {
+	font-size:22px;
+	text-align: justify;
+	line-height:26px;
+	}
+	
+#ispodMein {
+
+
+	}
+	
+#ispodMein img {
+	margin:auto;
+	}
+
+	
+#sidebar {
+	width:400px;
+	float:right;
+	font-size:16px;
+	line-height:16px;
+	margin-bottom:20px;
+	
+	}
+	
+.najavaPrva,
+.najavaDruga {
+	margin:0;
+	padding:10px;
+	overflow:hidden;
+	color:#FFF;
+	}
+
+.najavaPrva img{
+	display:block;
+	float:left;
+	padding:5px;
+	}
+	
+.najavaDruga img{
+	display:block;
+	float:left;
+	padding:5px;
+	}
+
+.najavaPrva h4 {
+	margin:0;
+	padding:0;
+	}
+	
+.najavaDruga h4 {
+	margin:0;
+	padding:0;
+	}
+
+.najavaPrva {
+	background:rgba(0,0,0,0.2);
+	}
+	
+.najavaDruga{
+	background:rgba(0,0,0,0.5);
+	}
+	
+.najavaPrva:hover{
+	border-bottom:1px #FCD61F solid;
+	background:rgba(0,0,0,0.9);
+	}
+
+.najavaDruga:hover{
+	border-bottom: 1px #FCD61F solid;
+	background:rgba(0,0,0,0.9);
+	}
+	
+	
+/*///////////forma/////////*/
+
+#formaDiv {
+	
+	margin:30px 0 30px 0;
+	padding:20px;
+	background:rgba(0,0,0,0.5);
+	}
+	
+#formaDiv h1,h2,h3,h4,h5,h6 {
+	padding-bottom:5px;
+	}
+
+#forma p{
+	color:#FFF;
+	font-size:16px;
+	}
+
+#Ime {
+	background:none;
+	border:1px solid #FFF;
+	color:#FFF;
+	}
+
+	
+	
+#email{
+	background:none;
+	border:1px solid #FFF;
+	color:#FFF;
+	}
+	
+	
+
+#vrsta{
+	background:none;
+	border:1px solid #FFF;
+	color:#FFF;
+	
+	}
+
+
+#textfield{
+	background:none;
+	border:1px solid #FFF;
+	color:#FFF;
+	}
+#textarea{
+	background:none;
+	border:1px solid #FFF;
+	color:#FFF;
+	}
+#submit {
+	margin:10px 0 0;
+	}
+	
+#formaDiv fieldset {
+	padding: 10px;
+	border: 1px solid #FFF;
+	border-radius: 4px;
+	}
+	
+	
+/*///////////forma/////////*/
+
+	
+	
+#sitemap ul a{
+	display:block;
+	text-decoration:none;
+	padding-bottom:10px;
+	color:#FFF;
+	font-size:18px;
+	}
+	
+#sitemap h1,h2,h3,h4,h5,h6 {
+	color:#FFF;
+	}
+
+#sitemap ul a:hover{
+	color:#CCC;
+	}
+	
+
+#footer{
+ 	clear:both;
+	}
+	
+#footer{
+	height:300px;
+	border-top:4px #FCD61F solid;
+	background:rgba(0,0,0,0.5);
+	}
+	
+#sitemap {
+	width:1200px;
+	margin:auto;
+	padding-top:20px;
+	}
+
+	
+#sitemap ul {
+	list-style:none;
+	padding:0;
+	}
+	
+	
+	
+	
+	
+	
+
+
+@media screen and (min-width:1024px) and (max-width:1300px) {
+
+#header,
+#centarNav,
+#sredina,
+#sitemap {
+	width:1000px;
+	}
+	
+#sidebar,
+.naslov {
+	width:300px;
+	}
+	
+.slika,
+#main {
+	width:660px;
+	}
+	
+
+.slika img {
+	width:100%;
+	height:100%;
+	padding-top:50px;
+	}
+	
+.naslov img {
+	width:100%;
+	height:100%;
+	}
+
+
+	}
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+#header,
+#centarNav,
+#sredina,
+#sitemap {
+	width:700px;
+	}
+	
+#sidebar,
+.naslov {
+	width:250px;
+	}
+	
+.slika,
+#main {
+	width:410px;
+	}
+	
+
+.slika img {
+	width:100%;
+	height:100%;
+	padding-top:200px;
+	}
+	
+.naslov img {
+	width:100%;
+	height:100%;
+	padding-top:60px;
+	}
+
+}
+
+/*-----------------------------------------------*/
+
+
+/*---------------------------------------*/
+
+@media screen and (max-width:768px) {
+
+#header,
+#centarNav,
+#sredina,
+#sitemap {
+	width:700px;
+	}
+	
+#sidebar,
+.naslov {
+	width:250px;
+	}
+	
+.slika,
+#main {
+	width:410px;
+	}
+	
+
+.slika img {
+	width:100%;
+	height:100%;
+	}
+	
+.naslov img {
+	width:100%;
+	height:100%;
+	padding-top:60px;
+	}
+	
+
+.naslov,
+.slika,	
+#nav,
+#main,	
+#sidebar,
+#footer{
+	width:auto;
+	float:none;
+	}
+	
+h1 {
+	padding:5px;
+	
+	}	
+
+p {
+	padding:5px;
+	}
+
+
+}
+	
+/*---------------------------------*/
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+
+body {
+	margin:0;
+	padding:0;
+	background:#190802;
+	background-attachment: fixed;
+	background-position: center top;
+
+	background-image:url(materijal/pozadinaKompres480.jpg);
+	
+	}
+
+
+
+
+.naslov,
+.slika{
+	float:none;
+	max-width:100%; 
+	padding:5px;
+	}
+	
+#wrapper{
+	width:100%;
+	}
+	
+#nav,
+#main,	
+#sidebar,
+#footer,
+#centarNav {
+	float:none;
+	max-width:100%; 
+	padding:5px;
+	}
+.slika {
+	display:none;
+	}
+	
+	
+	
+.naslov img {
+	display:none;
+	}
+	
+h1 {
+	padding:5px;
+	
+	}	
+
+p {
+	padding:5px;
+	}
+
+
+}
+
+
+
